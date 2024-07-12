@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="w-full h-screen" style={{ backgroundColor: color }}>
       <div className="text-center pt-10 md:pt-20 px-4">
-        <h1 className="text-3xl md:text-5xl font-semibold pb-10">Counter Project using UseState</h1>
+        <h1 className="text-3xl md:text-5xl font-semibold pb-4 sm:pb-10">Counter Project using UseState</h1>
         <h2 className="text-xl md:text-2xl font-medium pb-6 text-[#50d71e]">Counter Value : {counter} </h2>
         <button
           className="addValue font-medium mb-4 bg-yellow-500 rounded-full p-3 px-8"
